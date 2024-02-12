@@ -1,0 +1,19 @@
+/* ============================================================
+    * NAVIGATION CSS STYLE
+============================================================== */ 
+.best-navbar {
+    background-color: $secondary_color;
+    .navbar {
+        .collapse {
+            .navbar-nav {
+                .nav-link {
+                    color: $white_color;
+                    transition: all 0.4s ease-in-out;
+                    &:hover {
+                        color: $primary_color;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,53 @@
+.branch-contact-info {
+  background-color: $light_background;
+  margin-bottom: 30px;
+  transition: all 0.4s ease-in-out;
+
+  &:hover {
+    background-color: $secondary_color;
+    box-shadow: 0 10px 30px $dark_background;
+    .brunch-name {
+      color: $white_color;
+    }
+    .brunch-details {
+      .icon {
+        color: $primary_color;
+      }
+      a {
+        color: $white_color;
+      }
+    }
+  }
+  .brunch-name {
+    color: $secondary_color;
+    font-weight: 600;
+    transition: all 0.4s ease-in-out;
+  }
+  .brunch-details {
+    .icon {
+      font-size: 20px;
+      color: $primary_color;
+      transition: all 0.4s ease-in-out;
+    }
+    a {
+      font-size: 14px;
+      color: $secondary_color;
+      transition: all 0.4s ease-in-out;
+    }
+  }
+}
+.contact-area {
+  form {
+      .form-control {
+        border: 1px solid $text_color;
+        outline: none;
+        box-shadow: none;
+        color: $text_color;
+        &:focus {
+          border: 1px solid $primary_color;
+          outline: none;
+          box-shadow: none;
+        }
+      }
+  }
+}

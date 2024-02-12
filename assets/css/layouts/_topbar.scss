@@ -1,0 +1,15 @@
+/* ============================================================
+    * TOP BAR CSS STYLE
+============================================================== */ 
+.topbar-area {
+    background-color: #F5F7FA;
+    .topbar-address-info {
+        small {
+            color: $secondary_color;
+            .icon {
+                color: $primary_color;
+            }
+        }
+    }
+
+}

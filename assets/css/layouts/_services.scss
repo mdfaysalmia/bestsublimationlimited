@@ -1,0 +1,49 @@
+.services-area {
+    background-color: $light_background;
+    .service-content {
+        &.call-us {
+            background-color: $secondary_color;
+            .service-title {
+                font-family: 'DM Serif Display', serif;
+                font-size: 28px;
+                font-weight: 400;
+                color: $white_color;
+            }
+            .service-desc {
+                color: $white_color;
+            }
+            .contact-number {
+                font-family: 'DM Serif Display', serif;
+                color: $white_color;
+                font-size: 32px;
+                font-weight: 400;
+            }
+        }
+        background-color: $white_color;
+        box-shadow: 0 10px 25px #ddd;
+        .services-icon {
+            .icon {
+                height: 60px;
+                width: 60px;
+                line-height: 60px;
+                text-align: center;
+                background-color: $secondary_color;
+                transform: rotate(-45deg);
+                color: $white_color;
+                font-size: 30px;
+                border-radius: 2px;
+            }
+        }
+        .service-title {
+            // font-family: 'DM Serif Display', serif;
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            color: $secondary_color;
+            text-transform: capitalize;
+        }
+        .service-desc {
+            color: $text_color;
+            text-align: justify;
+        }
+    }
+}

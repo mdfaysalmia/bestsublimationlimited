@@ -1,0 +1,27 @@
+.about-area {
+    .main-title {
+        font-size: 28px;
+    }
+    .about-info {
+        color: $secondary_color;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .phone-icon {
+        font-size: 30px;
+        height: 60px;
+        width: 60px;
+        line-height: 60px;
+        text-align: center;
+        background-color: $secondary_color;
+    }
+    .heading {
+        font-family: 'DM Serif Display', serif;
+        font-weight: 400;
+        font-size: 18px;
+        color: $secondary_color;
+    }
+    .contact-number {
+        color: $text_color;
+    }
+}

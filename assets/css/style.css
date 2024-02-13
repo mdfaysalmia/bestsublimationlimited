@@ -410,6 +410,32 @@ p {
   box-shadow: none;
 }
 
+.about-area .main-title {
+  font-size: 28px;
+}
+.about-area .about-info {
+  color: #091E3E;
+  font-size: 16px;
+  font-weight: 500;
+}
+.about-area .phone-icon {
+  font-size: 30px;
+  height: 60px;
+  width: 60px;
+  line-height: 60px;
+  text-align: center;
+  background-color: #091E3E;
+}
+.about-area .heading {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #091E3E;
+}
+.about-area .contact-number {
+  color: #6B6A75;
+}
+
 footer .main-footer {
   background-color: #091E3E;
 }

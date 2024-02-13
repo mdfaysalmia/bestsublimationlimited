@@ -1,0 +1,43 @@
+.breadcrumb-area {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  background-image: url("../../assets/images/homer-printer-HM1800P4.jpg");
+  position: relative;
+  z-index: 1;
+  &::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: $secondary_color;
+    opacity: 0.8;
+    z-index: -1;
+  }
+  .breadcrumb-content {
+    .breadcrumb-heading {
+      font-family: 'DM Serif Display', serif;
+      font-weight: 400;
+      color: $white_color;
+    }
+    ul {
+      li {
+        display: inline-block;
+        margin-right: 8px;
+        font-size: 14px;
+        color: $light_background;
+        font-weight: 400;
+        text-transform: capitalize;
+        a {
+          color: $white_color;
+          &:hover {
+            color: $primary_color;
+          }
+        }
+      }
+    }
+  }
+}
